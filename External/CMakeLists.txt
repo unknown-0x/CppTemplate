@@ -5,6 +5,6 @@ add_library(
 )
 
 target_export_api(External UTILS_API)
-target_config_build_type(External)
+target_config_build_type(External PRIVATE)
 target_enable_clang_format(External)
 target_enable_clang_tidy(External)
